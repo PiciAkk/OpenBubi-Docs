@@ -1,0 +1,27 @@
+site_name: OpenBubi Documentation
+repo_url: https://github.com/PiciAkk/OpenBubi-Docs
+repo_name: OpenBubi
+theme:
+  name: material
+  logo: logo.png
+  favicon: logo.png
+  palette:
+    scheme: slate
+    primary: light green
+    accent: light green
+markdown_extensions:
+  - codehilite
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+nav:
+  - Home: 'index.md'
+  - Getting started: 'getting-started.md'
+  - Installation: 'installation.md'
+  - Usage:
+    - Try it out using a fancy GUI: 'usage/gui.md'
+    - Using as a Python module:
+      - Overview of the Python module: 'usage/pymodule/overview.md'
+      - Built-in functions of the Python module: 'usage/pymodule/functions.md'
+  - Reverse-engineering notes: 'notes.md'
+  - About: 'about.md'
