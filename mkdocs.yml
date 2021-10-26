@@ -1,6 +1,6 @@
 site_name: OpenBubi Documentation
 repo_url: https://github.com/PiciAkk/OpenBubi-Docs
-repo_name: OpenBubi
+repo_name: OpenBubi Docs
 theme:
   name: material
   logo: logo.png
