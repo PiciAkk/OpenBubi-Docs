@@ -18,4 +18,4 @@ There are some use cases:
 
 ## Get started
 
-To get started, view [this](getting-started) guide
+To get started, head over to the [installation](installation.md) guide
