@@ -1,3 +1,5 @@
 # <p align="center">Getting started</p>
 
-In this guide, I'll show you, how to get started using OpenBubi...
+In this guide, I'll show you, how to get started using OpenBubi... 
+
+Something
