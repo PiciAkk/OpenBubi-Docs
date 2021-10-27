@@ -120,8 +120,8 @@ nearestStation = Budapest.getNearestStation(lat, lon) # call getNearestStation()
 
 nearestStationInfo = {
   "name": nearestStation,
-  "bikesOnStation": Budapest.countBikesOnStation(nearestStation) # count the bikes on that station
-  "coordinates": Budapest.getCoordinateOfStation(nearestStation) # get the coordinates of that station
+  "bikesOnStation": Budapest.countBikesOnStation(nearestStation), # count the bikes on that station
+  "coordinates": json.loads(Budapest.getCoordinateOfStation(nearestStation)) # get the coordinates of that station, and convert it to a dictionary
 }
 
 googlemapsurl = urllib.parse.quote(f"https://www.google.com/maps?f=d&saddr={lat},{lon}&daddr={nearestStationInfo['coordinates']['lat']},{nearestStationInfo['coordinates']['lon']}&dirflg=d")
