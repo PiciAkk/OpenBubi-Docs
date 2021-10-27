@@ -42,7 +42,7 @@ We are going to:
 First of all, make a new Python script in the cloned folder
 
 ```bash
-touch bubidetector.py
+mkdir bubidetector && touch bubidetector/bubidetector.py
 ```
 
 Then import all the necessary modules in the newly created program/script
@@ -158,3 +158,30 @@ print(
 )
 # printing out
 ```
+
+## Usage
+
+Run the program
+
+```bash
+python bubidetector/bubidetector.py
+```
+
+Example output:
+
+```bash
+$ python bubidetector/bubidetector.py
+
+Station found...
+
+Informations:
+
+- Station name: Lorem Ipsum tér
+- Bikes on station: 123
+- Coordinates of station: {'lat': 123456.0, 'lon': 123456.0}
+- Google Maps route to the station: https://www.google.com/?maps?f=d&saddr=123456.0%2C123456.0&daddr=123456.0%2C123456.0&dirflg=d
+```
+
+## Source code
+
+I uploaded the source code of this program to [GitHub](https://github.com/PiciAkk/OpenBubi/blob/main/bubidetector/bubidetector.py)
