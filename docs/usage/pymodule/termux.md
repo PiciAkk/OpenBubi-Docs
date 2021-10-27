@@ -124,7 +124,7 @@ nearestStationInfo = {
   "coordinates": json.loads(Budapest.getCoordinateOfStation(nearestStation)) # get the coordinates of that station, and convert it to a dictionary
 }
 
-startingPoint = urllib.parse.quote(f"{lat},{lon})
+startingPoint = urllib.parse.quote(f"{lat},{lon}")
 destinationPoint = urllib.parse.quote(f"{nearestStationInfo['coordinates']['lat']},{nearestStationInfo['coordinates']['lon']}")
 googlemapsurl = urllib.parse.quote(f"https://www.google.com/maps?f=d&saddr={startingPoint}&daddr={destinationPoint}&dirflg=d")
 # calculate a Google Maps route to the station (based on coordinates)
