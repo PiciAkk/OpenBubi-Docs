@@ -23,7 +23,7 @@ nav:
       - Overview of the Python module: 'usage/pymodule/overview.md'
       - Built-in functions of the Python module: 'usage/pymodule/functions.md'
       - For Termux users: 'usage/pymodule/termux.md'
-      - For hackers: 'usage/pymodule/hackerguide.md'
+      - Using for brute forcing: 'usage/pymodule/hackerguide.md'
     - Using as a Dart module:
       - Overview of the Dart module: 'usage/dartmodule/overview.md'
   - Reverse-engineering notes: 'notes.md'
