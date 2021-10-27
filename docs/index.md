@@ -6,7 +6,7 @@
 
 ## Why OpenBubi?
 
-OpenBubi is a really nice solution, and it is easy to integrate
+OpenBubi is a really nice solution, and it is easy to integrate. OpenBubi has really nice feautures, like checking the type of the parameters (in Python), and having asynchronous methods (in Dart). Those features are making OpenBubi really good.
 
 There are some use cases:
 
