@@ -105,6 +105,7 @@ print(
  - Google Maps route to the station: {googlemapsurl}
  """
 )
+# printing out
 ```
 
 And the final code is:
@@ -155,4 +156,5 @@ print(
  - Google Maps route to the station: {googlemapsurl}
  """
 )
+# printing out
 ```
