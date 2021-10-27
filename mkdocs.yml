@@ -22,5 +22,6 @@ nav:
     - Using as a Python module:
       - Overview of the Python module: 'usage/pymodule/overview.md'
       - Built-in functions of the Python module: 'usage/pymodule/functions.md'
+      - For Termux users: 'usage/pymodule/termux.md'
   - Reverse-engineering notes: 'notes.md'
   - About: 'about.md'
