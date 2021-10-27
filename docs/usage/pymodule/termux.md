@@ -170,8 +170,6 @@ python bubidetector/bubidetector.py
 Example output:
 
 ```bash
-$ python bubidetector/bubidetector.py
-
 Station found...
 
 Informations:
