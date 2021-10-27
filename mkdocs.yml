@@ -23,5 +23,7 @@ nav:
       - Overview of the Python module: 'usage/pymodule/overview.md'
       - Built-in functions of the Python module: 'usage/pymodule/functions.md'
       - For Termux users: 'usage/pymodule/termux.md'
+    - Using as a Dart module:
+      - Overview of the Dart module: 'usage/dartmodule/overview.md'
   - Reverse-engineering notes: 'notes.md'
   - About: 'about.md'
