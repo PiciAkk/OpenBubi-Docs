@@ -82,8 +82,16 @@ nearestStationInfo = {
   "coordinates": json.loads(Budapest.getCoordinateOfStation(nearestStation)) # get the coordinates of that station, and convert it to a dictionary
 }
 
-googlemapsurl = urllib.parse.quote(f"https://www.google.com/maps?f=d&saddr={lat},{lon}&daddr={nearestStationInfo['coordinates']['lat']},{nearestStationInfo['coordinates']['lon']}&dirflg=d")
-# calculate a Google Maps route to the station (based on coordinates)
+startingPoint = urllib.parse.quote(f"{lat},{lon}")
+# make a starting point in a url-friendly format (based on the current coordinates)
+destinationPoint = urllib.parse.quote(f"{nearestStationInfo['coordinates']['lat']},{nearestStationInfo['coordinates']['lon']}")
+# make an ending point in a url-friendly format (based on the station's coordinates)
+googlemapsurl = f"https://www.google.com/maps?f=d&saddr={startingPoint}&daddr={destinationPoint}&dirflg=d"
+# generate the Google Maps URL
+
+# ^
+# |
+# calculate a Google Maps route to the station
 
 print(
  f"""
@@ -125,9 +133,15 @@ nearestStationInfo = {
 }
 
 startingPoint = urllib.parse.quote(f"{lat},{lon}")
+# make a starting point in a url-friendly format (based on the current coordinates)
 destinationPoint = urllib.parse.quote(f"{nearestStationInfo['coordinates']['lat']},{nearestStationInfo['coordinates']['lon']}")
+# make an ending point in a url-friendly format (based on the station's coordinates)
 googlemapsurl = f"https://www.google.com/maps?f=d&saddr={startingPoint}&daddr={destinationPoint}&dirflg=d"
-# calculate a Google Maps route to the station (based on coordinates)
+# generate the Google Maps URL
+
+# ^
+# |
+# calculate a Google Maps route to the station
 
 print(
  f"""
