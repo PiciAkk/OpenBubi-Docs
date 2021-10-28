@@ -165,10 +165,16 @@ print(
 
 ## Usage
 
+Go to the program's directory
+
+```bash
+cd bubidetector
+```
+
 Run the program
 
 ```bash
-python bubidetector/bubidetector.py
+python bubidetector.py
 ```
 
 Example output:
