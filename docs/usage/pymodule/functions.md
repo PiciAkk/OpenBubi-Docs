@@ -24,8 +24,9 @@
 - `listAllBikes()` - returns a JSON object containing all bikes
 - `listAllBikesFormatted()` - returns a JSON object containing all bikes (without the unnecessary parts)
 - `listAllStationsFormatted()` - returns a JSON object containing all stations (without the unnecessary parts)
-- `getNearestStation(lat, lon)` - (*lat, and lon needs to be a string*) returns the nearest station's name by latitude, and longitude (Using the Pythagorean theorem)
+- `getNearestStations(lat, lon)` - (*lat, and lon needs to be a float*) returns a JSON object containing all stations, sorted by proximity to `lat`, and `lon`. Distance is counted in geographical degrees. (calculated using the Pythagorean theorem)
+- `getNearestStation(lat, lon)` - (*lat, and lon needs to be a float*) returns the nearest station's name by latitude, and longitude (based on the first key of `getNearestStations`)
 - `getNearestStationByAddress(address)` - returns the nearest station's name by address (using `getNearestStation()`, and OpenStreetMap API)
 - `listAllBikesOnStations(stationName)` - returns all the bikes on a station (and the number of these bikes, and information about these bikes)
 - `countBikesOnStation(stationName)` - counts all the bikes on a station (using `listAllBikesOnStation()`), and returns the counter
-- `getCoordinateOfStation(stationName)` - returns the coordinates of a station (latitude, longitude)
+- `getCoordinatesOfStation(stationName)` - returns the coordinates of a station (latitude, longitude)
