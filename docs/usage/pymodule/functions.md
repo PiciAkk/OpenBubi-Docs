@@ -16,7 +16,6 @@
 - `getEndOfSubscription()` - returns the end of the subscription based on `getSubscriptionInfo()` (date)
 - `moreInfo()` - returns a LOT of information about the user
 - `getRentalDetails()` - returns information about the current rental
-- `register()` - *Work in progress...*
 
 ## `BubiMap()`
 
@@ -30,3 +29,8 @@
 - `listAllBikesOnStations(stationName)` - returns all the bikes on a station (and the number of these bikes, and information about these bikes)
 - `countBikesOnStation(stationName)` - counts all the bikes on a station (using `listAllBikesOnStation()`), and returns the counter
 - `getCoordinatesOfStation(stationName)` - returns the coordinates of a station (latitude, longitude)
+
+## `BubiHelpers()`
+
+- `register()` - *Work in progress...*
+- `pinReset()` - *Work in progress...*
