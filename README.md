@@ -44,3 +44,5 @@ Mkdocs config file: `mkdocs.yml`
 Makefile: `Makefile`
 
 Requirements: `requirements.txt`
+
+Workflows: `.github/workflows/main.yml`
