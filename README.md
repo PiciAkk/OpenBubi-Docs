@@ -43,4 +43,4 @@ Mkdocs config file: `mkdocs.yml`
 
 Makefile: `Makefile`
 
-Requirements
+Requirements: `requirements.txt`
