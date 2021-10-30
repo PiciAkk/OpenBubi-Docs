@@ -12,4 +12,4 @@ I think I'll use 3rd party libraries, like geopy.
 
 ---
 
-#### Thanks for the help, [Brúnó Salomon](https://github.com/bru02)
+#### Thanks for the help in the reverse engineering, [Brúnó Salomon](https://github.com/bru02)
