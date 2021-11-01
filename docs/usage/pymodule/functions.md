@@ -34,6 +34,6 @@
 
 - `register()` - *Work in progress...*
 - `pinReset(mobile)` - *Work in progress...*
-- `getNews()` - *Work in progress...*
-- `getNewsFormatted()` - *Work in progress...*
-- `readNew(uid)` - *Work in progress*
+- `getNews()` - Returns all the news in a JSON format
+- `getNewsFormatted()` - Returns all the news from the mobile app without the unnecessary parts (based on `getNews()`)
+- `readNew(uid)` - Returns the HTML page of a specific new article with the given uid (based on `getNewsFormatted()`) (*uid needs to be an integer*)
