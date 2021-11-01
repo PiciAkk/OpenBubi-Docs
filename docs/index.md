@@ -13,8 +13,9 @@ There are some use cases:
 1. You can make a smart-watch app, that can be used to rent bikes
 2. You can redesign the MOL Bubi web app
 3. You can make a data analyzing algorithm for MOL Bubi routes (a couple of Hungarians have [already done this](https://dms.sztaki.hu/bubi/), but they would have had an easier time with OpenBubi :D)
-4. You can make a smart assistant that can calculate the path to the nearest MOL Bubi station, and then rent a bike on that station.
+4. You can make a smart assistant that can calculate the path to the nearest MOL Bubi station, and then rent a bike on that station
 5. You can make a MOL Bubi client with a TUI (Text User Interface), or a CLI (Command Line Interface)
+6. You can make an algorithm that fetches MOL Bubi News, and if the news contains some keywords, it alerts
 
 ## Get started
 

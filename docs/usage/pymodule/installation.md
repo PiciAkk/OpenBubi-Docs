@@ -1,4 +1,4 @@
-# <p align="center">Installation</p>
+# <p align="center">Installation of the Python module</p>
 
 - Open up a terminal
 - Clone the repository of the source code

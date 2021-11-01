@@ -1,12 +1,12 @@
 # <p align="center">Built-in functions of the Python module</p>
 
-## `BubiUser(phoneNumber, pin)`
+## `BubiUser(phoneNumber, pin)` (*phoneNumber, and pin needs to be a string*)
 
 - `info()` - returns information in JSON (not dictionary) format -> if you want it in dictionary format, `import json`, and use `json.loads(info())`
 - `getScreenName()` - grabs the screen name from `info()`, and returns it
 - `getLoginKey()` - grabs the login key from `info()`, and returns it
 - `callOtherEndpoint(relativeURL, data)` (*relativeURL needs to be a string, and data needs to be a dictionary*) - calls the specified `endpoint` with the specified `data` (plus `loginkey`, `domain`, `apikey`, `show_errors`), and returns the output. (*you can find endpoints [here](https://github.com/h0chi/nextbike-api-reverse-engineering)*)
-- `rentBike(bikeNumber)` (*bikeNumber needs to be a string*) - rents a bike, and returns the output
+- `rentBike(bikeNumber)` (*bikeNumber needs to be an integer*) - rents a bike, and returns the output
 - `getRentals()` - returns information about the user's rentals
 - `getClosedRentals()` - returns closed rentals from `getRentals()`
 - `getActiveRentals()` - returns active rentals
@@ -33,4 +33,7 @@
 ## `BubiHelpers()`
 
 - `register()` - *Work in progress...*
-- `pinReset()` - *Work in progress...*
+- `pinReset(mobile)` - *Work in progress...*
+- `getNews()` - *Work in progress...*
+- `getNewsFormatted()` - *Work in progress...*
+- `readNew(uid)` - *Work in progress*
