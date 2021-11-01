@@ -2,7 +2,7 @@
 
 ## `BubiUser(phoneNumber, pin)` (*phoneNumber, and pin needs to be a string*)
 
-- `info()` - returns information in JSON (not dictionary) format -> if you want it in dictionary format, `import json`, and use `json.loads(info())`
+- `info()` - returns user information in JSON (not dictionary) format -> if you want it in dictionary format, `import json`, and use `json.loads(info())`
 - `getScreenName()` - grabs the screen name from `info()`, and returns it
 - `getLoginKey()` - grabs the login key from `info()`, and returns it
 - `callOtherEndpoint(relativeURL, data)` (*relativeURL needs to be a string, and data needs to be a dictionary*) - calls the specified `endpoint` with the specified `data` (plus `loginkey`, `domain`, `apikey`, `show_errors`), and returns the output. (*you can find endpoints [here](https://github.com/h0chi/nextbike-api-reverse-engineering)*)
