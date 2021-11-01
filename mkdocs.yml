@@ -25,9 +25,9 @@ nav:
       - For Termux users: 'usage/pymodule/termux.md'
       - Using for brute force attacks: 'usage/pymodule/hackerguide.md'
       - Making a news reader: 'usage/pymodule/bubinews.md'
-    - Using as a Dart module:
-      - Installation of the Dart module: 'usage/dartmodule/installation.md'
-      - Overview of the Dart module: 'usage/dartmodule/overview.md'
+    - Using as a Dart package:
+      - Installation of the Dart package: 'usage/dartmodule/installation.md'
+      - Overview of the Dart package: 'usage/dartmodule/overview.md'
       - Making a smart-watch app using flutter-tizen: 'usage/dartmodule/smartwatch.md'
   - Reverse-engineering notes: 'notes.md'
   - About: 'about.md'
