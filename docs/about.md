@@ -8,7 +8,7 @@ Budapest is a "small" city, but with a potentially larger city (or even a countr
 
 But the Haversine-formula isn't perfect either, because it doesn't account with the Earth being a geoid, not sphere.
 
-I think I'll use 3rd party libraries, like geopy.
+I think I'll use 3rd party libraries, like [geopy](https://pypi.org/project/geopy/).
 
 ---
 
