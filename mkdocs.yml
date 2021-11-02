@@ -32,7 +32,7 @@ nav:
       - Overview of the Python module: 'usage/pymodule/overview.md'
       - Built-in functions of the Python module: 'usage/pymodule/functions.md'
       - For Termux users: 'usage/pymodule/termux.md'
-      - Using for brute force attacks: 'usage/pymodule/hackerguide.md'
+      #- Using for brute force attacks: 'usage/pymodule/hackerguide.md'
       - Making a news reader: 'usage/pymodule/bubinews.md'
     - Using as a Dart package:
       - Installation of the Dart package: 'usage/dartpackage/installation.md'
