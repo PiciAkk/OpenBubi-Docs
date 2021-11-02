@@ -4,7 +4,7 @@ There you can find a simple guide for using the package.
 
 There are two classes: `BubiUser`, and `BubiMap`. In this tutorial, I'll use these classes.
 
-First of all, make a new Dart app. To achieve this, run `dart create -t console-full openbubi-tutorial`.
+First of all, make a new Dart app. To achieve this, run `dart create -t console-full openbubi-tutorial`, and go to that folder (`cd openbubi-tutorial`).
 
 Then go to the `lib` folder
 
