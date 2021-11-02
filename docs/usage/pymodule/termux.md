@@ -179,7 +179,7 @@ python bubidetector.py
 
 Example output:
 
-```bash
+```
 Station found...
 
 Informations:
