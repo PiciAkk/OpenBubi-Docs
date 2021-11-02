@@ -56,7 +56,7 @@ import os # for running termux-location
 import urllib.parse # for parsing urls
 ```
 
-Then initialize a new instance of `BubiMap` as Budapest
+Then initialize a new instance of `BubiMap` as `Budapest`
 
 ```python
 Budapest = openbubi.BubiMap()
