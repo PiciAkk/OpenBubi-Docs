@@ -5,6 +5,10 @@
 ```bash
 git clone https://github.com/piciakk/OpenBubi
 ```
+- Go to the source code's directory
+```bash
+cd OpenBubi
+```
 - Install the requirements
   - Manually
   ```bash

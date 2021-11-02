@@ -4,7 +4,7 @@ There you can find a simple guide for using the module.
 
 There are two classes: `BubiUser`, and `BubiMap`. In this tutorial, I'll use these classes.
 
-First of all, make a new Python script, that is in the same directory as openbubi.py
+First of all, make a new Python script, that is in the same directory as `openbubi.py` (or move `openbubi.py` to a directory of your choice, and make the Python script there)
 
 Then import the module
 
