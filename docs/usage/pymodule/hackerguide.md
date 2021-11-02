@@ -55,7 +55,8 @@ for i in itertools.product("0123456789", repeat=6):
     }
   }
 
-  There is a JSON object, that contains an error key with a value that contains another JSON object with the error code, error message, and reference.
+  There is a JSON object, that contains an error key with a value that contains
+  another JSON object with the error code, error message, and reference.
   So, if we want to detect login failure, we need to check if there is a key named "error". So we need to:
   1. Convert the output of user.login() to a dictionary
   2. Convert all the keys of this dictionary into a list
