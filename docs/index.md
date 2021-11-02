@@ -1,6 +1,6 @@
 # <p align="center">OpenBubi</p>
 
-## <p align="center"> Open-source module for the Hungarian bike-rental system, MOL Bubi</p>
+## <p align="center">Open-source module for the Hungarian bike-rental system, MOL Bubi</p>
 
 <p align="center"><img src="logo.png" alt="logo" width="200"/></p>
 
@@ -15,7 +15,7 @@ There are some use cases:
 3. You can make a data analyzing algorithm for MOL Bubi routes (a couple of Hungarians have [already done this](https://dms.sztaki.hu/bubi/), but they would have had an easier time with OpenBubi :D)
 4. You can make a smart assistant that can calculate the path to the nearest MOL Bubi station, and then rent a bike on that station
 5. You can make a MOL Bubi client with a TUI (Text User Interface), or a CLI (Command Line Interface)
-6. You can make an algorithm that fetches MOL Bubi News, and if the news contains some keywords, it alerts
+6. You can make an algorithm that fetches MOL Bubi news, and if the news contains some keywords, it alerts
 
 ## Get started
 
