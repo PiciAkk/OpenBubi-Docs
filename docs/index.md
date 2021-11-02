@@ -19,4 +19,4 @@ There are some use cases:
 
 ## Get started
 
-To get started, head over to the [installation](installation.md) guide
+To get started, [try it out](usage/gui.md)
