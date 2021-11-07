@@ -31,7 +31,7 @@ Then get an input from the user about the phone number of the victim
 phoneNumber = getpass.getpass("Please enter a phone number: ")
 ```
 
-Then make a `for` cycle, that iterates over the list of six-digit numbers (using itertools), and tries every possible password for authenticating
+Then make a `for` cycle, that iterates over the list of six-digit numbers (using `itertools`), and tries every possible password for authenticating
 
 ```python
 # make an iterable object that contains all six-digit numbers, and iterate through that
