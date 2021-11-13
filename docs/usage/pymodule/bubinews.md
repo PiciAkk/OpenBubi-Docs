@@ -67,11 +67,21 @@ for i in news:
     currentDate = i["created_time"]
     # set the `currentDate` variable to the created_time of the current article (it is an epoch time)
     currentURL = i["url_webview"]
+    # set the `currentURL` variable to the url_webview of the current article
     currentDate = datetime.datetime.fromtimestamp(currentDate).strftime('%Y-%m-%d %H:%M:%S')
+    # convert the `currentDate` variable to datetime format
     headerLabel = HTMLLabel(root, html=f"<a style='font-size: 12px' href='{currentURL}'><p style='text-align: center'>{currentTitle}</p></a>", width=100, height=1.5)
+    # make a HTML paragraph that redirects you to the website with the URL of `currentURL`
     dateLabel = Label(root, text=f"({currentDate})", font=("Helvetica", 10))
+    # make a label that contains the date of the article
     headerLabel.pack()
+    # place the headerLabel
     dateLabel.pack()
+    # place the dateLabel
 ```
 
-Then
+Then call the `mainloop()` function of the `root` window
+
+```python
+root.mainloop()
+```
