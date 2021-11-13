@@ -85,3 +85,43 @@ Then call the `mainloop()` function of the `root` window
 ```python
 root.mainloop()
 ```
+
+And the final code is:
+
+```python
+import sys # for manipulating the path
+sys.path.append("../") # add the folder of openbubi.py to the path
+import openbubi
+from tkinter import * # for making the GUI
+import json # for converting the output of openbubi to a dictionary
+import datetime # for converting epoch time to datetime
+from tkhtmlview import HTMLLabel # for displaying HTML elements in tkinter
+
+root = Tk()
+root.title("BubiNews")
+
+Label(root, text="BubiNews", font=("Helvetica", 20)).pack()
+
+helpers = openbubi.BubiHelpers()
+news = json.loads(helpers.getNewsFormatted())
+
+for i in news:
+    currentTitle = i["title"]
+    # set the `currentTitle` variable to the title of the current article
+    currentDate = i["created_time"]
+    # set the `currentDate` variable to the created_time of the current article (it is an epoch time)
+    currentURL = i["url_webview"]
+    # set the `currentURL` variable to the url_webview of the current article
+    currentDate = datetime.datetime.fromtimestamp(currentDate).strftime('%Y-%m-%d %H:%M:%S')
+    # convert the `currentDate` variable to datetime format
+    headerLabel = HTMLLabel(root, html=f"<a style='font-size: 12px' href='{currentURL}'><p style='text-align: center'>{currentTitle}</p></a>", width=100, height=1.5)
+    # make a HTML paragraph that redirects you to the website with the URL of `currentURL`
+    dateLabel = Label(root, text=f"({currentDate})", font=("Helvetica", 10))
+    # make a label that contains the date of the article
+    headerLabel.pack()
+    # place the headerLabel
+    dateLabel.pack()
+    # place the dateLabel
+
+root.mainloop()
+```
