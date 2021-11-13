@@ -125,3 +125,7 @@ for i in news:
 
 root.mainloop()
 ```
+
+## Source code
+
+I uploaded the source code of this program to [GitHub](https://github.com/PiciAkk/OpenBubi/blob/main/bubinews/bubinews.py)
