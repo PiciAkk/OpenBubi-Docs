@@ -12,7 +12,7 @@
 - `getActiveRentals()` - returns active rentals
 - `getPaymentLinks()` - returns information about payment links
 - `getSubscriptionInfo()` - returns the end of the subscription, and the type of the subscription
-- `getSubScriptionType()` - returns the type of the subscription based on `getSubscriptionInfo()` (monthly, or annual)
+- `getSubscriptionType()` - returns the type of the subscription based on `getSubscriptionInfo()` (monthly, or annual)
 - `getEndOfSubscription()` - returns the end of the subscription based on `getSubscriptionInfo()` (date)
 - `moreInfo()` - returns a LOT of information about the user
 - `getRentalDetails()` - returns information about the current rental
