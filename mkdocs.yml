@@ -26,9 +26,9 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - Usage:
-    - Try it out using a fancy GUI: 'usage/gui.md'
     - Using as a Python module:
       - Installation of the Python module: 'usage/pymodule/installation.md'
+      - Try it out using a fancy GUI: 'usage/gui.md'
       - Overview of the Python module: 'usage/pymodule/overview.md'
       - Built-in functions of the Python module: 'usage/pymodule/functions.md'
       - For Termux users: 'usage/pymodule/termux.md'
